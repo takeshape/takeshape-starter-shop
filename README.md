@@ -28,9 +28,9 @@ When you are done tinkering and are ready to put your site online follow these s
     1. Give your site a name such as "Production" or "Staging"
     1. Select your "Provider" and enter in the appropriate credentials.
 1. Use the CLI to point your local development folder to the static site you just created.
-    - `npx takeshape init` - Follow the command prompts
+    - `npm run init` - Follow the command prompts
 1. Use the CLI to deploy your templates!
-    - `npx takeshape deploy` - Deploy your site to TS!
+    - `npm run deploy` - Deploy your site to TS!
 1. Once the templates are deployed TakeShape will generate HTML and push your website to the configured provider
     - Check your bucket/webserver to see the fruits of your labor
     - Additional publishes can be triggered using the "Deploy <sitename>" in the project menu
